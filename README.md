@@ -3,9 +3,9 @@ Installing Moodle on Ubuntu 20.04
 
 						Installing Pre-requisites : LAMP Stack   
 
-1.  sudo apt update && sudo apt upgrade -y
-2.  sudo apt install tasksel
-3.  sudo tasksel install lamp-server  	#using tasksel automates apache, mysql and php installation. 
+sudo apt update && sudo apt upgrade -y
+sudo apt install tasksel
+sudo tasksel install lamp-server  	#using tasksel automates apache, mysql and php installation. 
 						  	#However it may install php 8.1 instead of php 7.4. So run the following commands to install all the required php extensions
 
 4.  sudo apt install php7.4 libapache2-mod-php7.4   php7.4-pspell php7.4-curl php7.4-gd php7.4-intl php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-ldap php7.4-zip php7.4-soap php7.4-mbstring 
