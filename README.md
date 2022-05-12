@@ -7,7 +7,7 @@ Installing Pre-requisites : LAMP Stack
 	sudo apt install tasksel
 	sudo tasksel install lamp-server
 
-	sudo apt install php7.4 libapache2-mod-php7.4 php7.4-pspell php7.4-curl php7.4-gd php7.4-intl php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-ldap php7.4-zip 		php7.4-soap php7.4-mbstring 
+	sudo apt install php7.4 libapache2-mod-php7.4 php7.4-pspell php7.4-curl php7.4-gd php7.4-intl php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-ldap php7.4-zip php7.4-soap php7.4-mbstring 
 	sudo apt install graphviz aspell ghostscript clamav php-json php-cgi php-mysql php-curl git
 	sudo systemctl restart apache2
 
