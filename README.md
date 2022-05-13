@@ -36,7 +36,7 @@ Installing Pre-requisites : LAMP Stack
 	mysql>GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,CREATE TEMPORARY TABLES,DROP,INDEX,ALTER ON moodle.* TO 'moodle-user'@'localhost';
 	
 	sudo vim /etc/php/7.4/apache2/php.ini
-	##Find and Uncomment the line ;max_input_vars = 1000 and change it to max_input_vars = 5000. Save and quit##
+	##Find and Uncomment the line ;max_input_vars = 1000 and change it to max_input_vars = 5000. Save and quit## You can also change the upload max size here##
 	sudo systemctl restart apache2
 
 							#Complete the Moodle Installation, browse yourdomain.com/moodle for installation.
